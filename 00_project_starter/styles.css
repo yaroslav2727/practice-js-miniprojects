@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    display: block;
+}

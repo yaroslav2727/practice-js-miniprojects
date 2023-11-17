@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9);
+}
+
+img {
+    display: block;
+}
+
+.main {
+    background: url('https://picsum.photos/2000') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: antiquewhite;
+}

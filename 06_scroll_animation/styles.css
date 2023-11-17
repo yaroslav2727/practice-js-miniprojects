@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: antiquewhite;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.content {
+    margin: 12px auto;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(38, 61, 129);
+    border: 2px solid rgb(209, 203, 136);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms ease-in;
+
+    transform: translateX(400%);
+}
+
+.content:nth-of-type(2n) {
+    transform: translateX(-400%);
+}
+
+.content.show {
+    transform: translateX(0);
+}

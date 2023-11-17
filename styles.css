@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: antiquewhite;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: antiquewhite;
+    transition: color 250ms ease-in-out;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 25px 100px;
+}
+
+li {
+    margin-bottom: 20px;
+}
