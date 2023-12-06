@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: antiquewhite;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+
+h2.ps {
+    color: rgb(65, 65, 177);
+}
+
+h2.xbox {
+    color: rgb(5, 58, 5);
+}
+
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+}
+
+.split {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.left {
+    background-color: rgb(148, 181, 211);
+    flex-basis: 50%;
+}
+
+.right {
+    background-color: rgb(40, 145, 26);
+    flex-basis: 50%;
+}
+
+.activated {
+    flex-basis: 60%;
+    flex-shrink: 0;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta-button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    transition: all 250ms ease-in-out;
+}
+
+.cta-button:hover, .cta-button:active {
+    background-color: black;
+    color: white;
+}
