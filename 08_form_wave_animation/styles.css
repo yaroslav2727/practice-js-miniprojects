@@ -6,9 +6,88 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(36, 36, 36);
     color: antiquewhite;
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9), 1px 1px 20px rgba(0, 0, 0, 0.9);
 }
 
-img {
+img, input, button {
     display: block;
+}
+
+input {
+    outline: none;
+}
+
+.main {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    padding: 36px;
+    background-color: rgb(26, 26, 26);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.label {
+    position: relative;
+    bottom: 52px;
+    cursor: text;
+}
+
+.label .span {
+    position: relative;
+    bottom: 0;
+    transition: all 150ms ease-out;
+}
+
+.input:focus + .label .span,
+.input:valid + .label .span {
+    bottom: 24px;
+    cursor: default;
+    color: rgb(238, 238, 154);
+}
+
+
+.input {
+    margin-bottom: 24px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    padding: 8px;
+    width: 100%;
+    transition: all 150ms ease-out;
+}
+
+.input:focus {
+    border-color: rgb(238, 238, 154);
+}
+
+.button {
+    margin-bottom: 36px;
+    width: 100%;
+    padding: 12px;
+    background-color: beige;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 250ms ease-in;
+}
+
+.button:hover {
+    background-color: rgb(218, 218, 175);
+}
+
+.button:active {
+    background-color: rgb(238, 238, 154);
+}
+
+.register {
+    font-weight: 600;
+    color: rgb(145, 145, 236);
 }
