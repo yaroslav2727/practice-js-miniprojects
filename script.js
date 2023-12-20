@@ -8,6 +8,7 @@ const MINIPROJECTS = [
   "07_split_landing_page",
   "08_form_wave_animation",
   "09_sound_board",
+  "10_dad_jokes",
 ];
 
 const markup = MINIPROJECTS.map(element => {
